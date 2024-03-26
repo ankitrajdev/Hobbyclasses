@@ -1,0 +1,47 @@
+@media screen and (max-width:1024px) { .nav { padding: 0 1rem; }
+
+ .nav-toggler { display: flex; align-items: center; background: transparent; }
+
+ .nav-link-main { display: none; }
+
+ .nav-link-mob { display: flex; transform: translateX(-500%); transition: .2s; }
+
+ .nav-link-mob.active { transform: translateX(00%); }
+
+ main { margin-bottom: 3rem; }
+
+ .main-home-img { box-shadow: inherit; }
+
+ .main-class { margin-top: 4rem; }
+
+ .main-mentor { margin-top: 4rem; }
+
+ .main-contact { padding: 0 1rem; margin-top: 4rem; }
+
+ .footer-links { padding: 1rem 1rem; }
+
+ .footer-link-home { width: 100%; }
+
+ .footer-link-other {
+
+ justify-content: flex-start; margin-top: 2rem; gap: 2rem; }
+
+ .footer-bottom { padding: 1rem; } }
+
+@media screen and (max-width:480px) { .main-home { margin-top: 2rem; }
+
+ .main-home-img { width: 20rem; height: 20rem; }
+
+ .footer-link-other { flex-direction: column; }
+
+ .footer-bottom { flex-direction: column; padding: 1rem; }
+
+ .footer-bottom-div p { text-align: center; } }
+
+@media screen and (min-width:1025px) { .main-home { min-height: 80vh; }
+
+ .main-class { min-height: 90vh; }
+
+ .main-mentor { min-height: 90vh; }
+
+ .main-contact { min-height: 90vh; } }
